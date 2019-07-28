@@ -1,0 +1,48 @@
+#score {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'SVN-Beloved';
+    color: white;
+    letter-spacing: 4px;
+}
+#gameCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#menuCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#restart {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Algerian";
+    font-size: 40px;
+    padding: 3px 20px 3px 20px;
+    border: 3px solid white;
+    border-radius: 13px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+#restart:hover {
+    background-color: rgb(38, 139, 255);
+}
+
+
+#snake_length {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Consolas';
+    color: white;
+}
